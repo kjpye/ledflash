@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 03 Dec 2013 13:59:40 EST
+EESchema Schematic File Version 2  date Tue 03 Dec 2013 14:15:26 EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 43  0
+LIBS:ledflash-cache
+EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
@@ -192,7 +193,7 @@ L C C?
 U 1 1 529D47CD
 P 7800 4100
 F 0 "C?" H 7850 4200 50  0000 L CNN
-F 1 "C" H 7850 4000 50  0000 L CNN
+F 1 "0.1uF" H 7850 4000 50  0000 L CNN
 	1    7800 4100
 	1    0    0    -1  
 $EndComp
@@ -201,7 +202,7 @@ L R R?
 U 1 1 529D4789
 P 4450 3950
 F 0 "R?" V 4530 3950 50  0000 C CNN
-F 1 "R" V 4450 3950 50  0000 C CNN
+F 1 "150" V 4450 3950 50  0000 C CNN
 	1    4450 3950
 	0    1    1    0   
 $EndComp
@@ -219,7 +220,7 @@ L POT RV?
 U 1 1 529D46DB
 P 3450 5300
 F 0 "RV?" H 3450 5200 50  0000 C CNN
-F 1 "POT" H 3450 5300 50  0000 C CNN
+F 1 "10k" H 3450 5300 50  0000 C CNN
 	1    3450 5300
 	0    1    1    0   
 $EndComp
@@ -228,7 +229,7 @@ L POT RV?
 U 1 1 529D46CB
 P 3900 5300
 F 0 "RV?" H 3900 5200 50  0000 C CNN
-F 1 "POT" H 3900 5300 50  0000 C CNN
+F 1 "10k" H 3900 5300 50  0000 C CNN
 	1    3900 5300
 	0    1    1    0   
 $EndComp
@@ -237,7 +238,7 @@ L POT RV?
 U 1 1 529D46BC
 P 4400 5300
 F 0 "RV?" H 4400 5200 50  0000 C CNN
-F 1 "POT" H 4400 5300 50  0000 C CNN
+F 1 "10k" H 4400 5300 50  0000 C CNN
 	1    4400 5300
 	0    1    1    0   
 $EndComp
@@ -246,7 +247,7 @@ L POT RV?
 U 1 1 529D4695
 P 4900 5300
 F 0 "RV?" H 4900 5200 50  0000 C CNN
-F 1 "POT" H 4900 5300 50  0000 C CNN
+F 1 "10k" H 4900 5300 50  0000 C CNN
 	1    4900 5300
 	0    1    1    0   
 $EndComp
