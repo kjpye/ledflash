@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 03 Dec 2013 14:15:26 EST
+EESchema Schematic File Version 2  date Tue 03 Dec 2013 14:17:17 EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -43,6 +43,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	2250 2950 2250 3000
+Wire Wire Line
+	2250 3000 1050 3000
+Wire Wire Line
+	1050 3000 1050 1350
 Connection ~ 4950 2100
 Wire Wire Line
 	4950 2450 4950 2100
@@ -152,12 +158,25 @@ Wire Wire Line
 Wire Wire Line
 	4950 3100 1300 3100
 Connection ~ 4200 3100
+Wire Wire Line
+	1050 1150 2250 1150
+Wire Wire Line
+	2250 1150 2250 1250
+$Comp
+L CONN_2 P?
+U 1 1 529D4D0C
+P 700 1250
+F 0 "P?" V 650 1250 40  0000 C CNN
+F 1 "CONN_2" V 750 1250 40  0000 C CNN
+	1    700  1250
+	-1   0    0    1   
+$EndComp
 $Comp
 L C C?
 U 1 1 529D48F4
 P 4950 2650
 F 0 "C?" H 5000 2750 50  0000 L CNN
-F 1 "C" H 5000 2550 50  0000 L CNN
+F 1 "10uF" H 5000 2550 50  0000 L CNN
 	1    4950 2650
 	1    0    0    -1  
 $EndComp
@@ -166,7 +185,7 @@ L C C?
 U 1 1 529D48E8
 P 3400 2600
 F 0 "C?" H 3450 2700 50  0000 L CNN
-F 1 "C" H 3450 2500 50  0000 L CNN
+F 1 "10uF" H 3450 2500 50  0000 L CNN
 	1    3400 2600
 	1    0    0    -1  
 $EndComp
