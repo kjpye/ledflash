@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2013-04-11 BZR 4094)-stable date = Sun 29 Dec 2013 16:57:26 EST
+
+BeginCmp
+TimeStamp = /529D48E8;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D48F4;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D47CD;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D47F8;
+Reference = D1;
+ValeurCmp = BRIDGE;
+IdModule  = DO-41;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4775;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = c64abfd;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4662;
+Reference = IC1;
+ValeurCmp = ATTINY13A-S;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4D0C;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BFB6C6;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4789;
+Reference = R1;
+ValeurCmp = 150;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BFB13C;
+Reference = R2;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BFB136;
+Reference = R3;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BFB11C;
+Reference = R4;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BFB116;
+Reference = R5;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BFB0F8;
+Reference = R6;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BFB0F2;
+Reference = R7;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BFAF59;
+Reference = R8;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BFAF4C;
+Reference = R9;
+ValeurCmp = 4k7;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BFB12F;
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = 3PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BFB10F;
+Reference = RV2;
+ValeurCmp = 10k;
+IdModule  = 3PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BFB0EB;
+Reference = RV3;
+ValeurCmp = 10k;
+IdModule  = 3PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4695;
+Reference = RV4;
+ValeurCmp = 10k;
+IdModule  = 3PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4822;
+Reference = U1;
+ValeurCmp = LM7805;
+IdModule  = TO92;
+EndCmp
+
+EndListe
